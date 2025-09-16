@@ -33,30 +33,35 @@ The app lets you enter details like Income, Debt, Credit Score, Employment Statu
 
 ✅ High Risk
 ✅ Low Risk
-
+----
 Run the app locally:
-
+```bash
 streamlit run app.py
-
+````
+-----
 📦 Installation
-
+```bash
 Clone the repo:
 
 git clone https://github.com/<your-username>/Credit_Risk_Prediction.git
 cd Credit_Risk_Prediction
 pip install -r requirements.txt
+````
+----
 
 📊 Example Output
-
+``bash
 Accuracy: 85%
 
 F1-Score: 0.82
-
+````
 Confusion Matrix:
-
+```bash
 	Predicted Low	Predicted High
 Actual Low	450	50
 Actual High	70	430
+````
+
 🔮 Future Improvements
 
 Add explainable AI (SHAP/LIME) to interpret model predictions.
@@ -64,8 +69,9 @@ Add explainable AI (SHAP/LIME) to interpret model predictions.
 Deploy on Streamlit Cloud / Heroku / AWS.
 
 Enhance dataset with more diverse financial records.
-
+----
 🙌 Credits
 
 Developed by Sikandar Ali
 📌 AI & ML Engineer | Deep Learning | Computer Vision | Data Science
+

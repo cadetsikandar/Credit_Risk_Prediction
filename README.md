@@ -50,8 +50,8 @@ pip install -r requirements.txt
 ----
 
 📊 Example Output
-``bash
-Accuracy: 85%
+```bash
+Accuracy: 70%
 
 F1-Score: 0.82
 ````
@@ -74,4 +74,5 @@ Enhance dataset with more diverse financial records.
 
 Developed by Sikandar Ali
 📌 AI & ML Engineer | Deep Learning | Computer Vision | Data Science
+
 
